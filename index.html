@@ -19,7 +19,7 @@
 
         /* Header Section */
         header {
-            background: url('https://raw.githubusercontent.com/Jonoothans/apac_incentive/main/assets/sunrise.png?v=1') no-repeat center;
+            background: url('https://raw.githubusercontent.com/Jonoothans/us_incentive1/main/assets/sunrise.png?v=1') no-repeat center;
             background-size: cover;
             width: 100%;
             height: 200px; /* Ensures it doesn't expand beyond the header */
@@ -75,7 +75,7 @@
 
     <!-- Header Section -->
     <header>
-        <h1>APAC Implementation Incentive</h1>
+        <h1>US Implementation Incentive</h1>
     </header>
 
     <!-- Leaderboard Table -->
@@ -93,7 +93,7 @@
     <script>
         const SUPABASE_URL = "https://ybtupotxytuoattvdnrk.supabase.co";
         const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlidHVwb3R4eXR1b2F0dHZkbnJrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA0NzYwMDQsImV4cCI6MjA1NjA1MjAwNH0.cYb-OOtjPJiPNUOCAH032Eql1bsXnfzWtw4t831PlxQ";
-        const TABLE_NAME = "apac_incentive"; // ✅ Changed from "emea_incentive" to "apac_incentive"
+        const TABLE_NAME = "us_incentive"; // ✅ Changed from "apac_incentive" to "us_incentive"
         const API_URL = `${SUPABASE_URL}/rest/v1/${TABLE_NAME}`;
 
         async function fetchTableData() {
@@ -166,4 +166,3 @@
 
 </body>
 </html>
-
